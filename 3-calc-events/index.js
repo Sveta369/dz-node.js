@@ -41,4 +41,6 @@ if (operation === "add") {
   myEmitter.emit("subtraction", num1, num2);
 } else if (operation === "division") {
   myEmitter.emit("division", num1, num2);
-}
+} else
+  console.error("Ошибка: Доступные операции - multiply, add, subtraction, division.");
+  process.exit(1);

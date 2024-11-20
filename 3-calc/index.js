@@ -14,5 +14,9 @@ const operations = {
   add: add,
   multiply: multiply,
 };
-const result = operations[operation](num1, num2);
-console.log(`${result}`);
+if(operation == "multiply" || operation == "add"){
+  const result = operations[operation](num1, num2);
+  console.log(`${result}`);
+} else
+  console.error("Ошибка: Операция должны быть multiply или add.");
+  process.exit(1);
