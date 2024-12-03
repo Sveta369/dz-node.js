@@ -1,0 +1,26 @@
+{
+  "name": "7-timer-notifications",
+  "version": "1.0.0",
+  "description": "NPM",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sveta369/dz-node.js.git"
+  },
+  "keywords": [
+    "npm",
+    "timer"
+  ],
+  "author": "Svetlana Zhuravel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sveta369/dz-node.js/issues"
+  },
+  "homepage": "https://github.com/Sveta369/dz-node.js#readme",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}
