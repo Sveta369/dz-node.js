@@ -1,0 +1,35 @@
+{
+  "name": "weather-cli-demo9",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather-cli-demo9": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Svetlana Zhuravel",
+  "license": "ISC",
+  "homepage": "https://github.com/Sveta369/dz-node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sveta369/dz-node.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Sveta369/dz-node.js",
+    "email": "zhuravel.svetlana9@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "dedent-js": "^1.0.1",
+    "minimist": "^1.2.8"
+  }
+}
